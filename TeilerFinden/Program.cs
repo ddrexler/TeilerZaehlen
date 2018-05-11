@@ -6,8 +6,6 @@ namespace TeilerFinden
     {
         static void Main(string[] args)
         {
-            int groessteZahl = 0;
-
             while (true)
             {
                 Console.WriteLine("Bitte geben Sie eine positive Ganzzahl ein! (Leere Eingabe beendet das Programm)");
@@ -18,11 +16,15 @@ namespace TeilerFinden
                     if (input.Equals("")) break;
                     int inputNumber = Convert.ToInt32(input);
 
+
+
                     if (inputNumber < 1)
                     {
                         Console.WriteLine("Die Zahl muss positiv sein!");
                         continue;
                     }
+
+                    int groessteZahl = 0;
 
                     if (inputNumber > groessteZahl) groessteZahl = inputNumber;
 
