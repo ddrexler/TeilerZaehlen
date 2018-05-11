@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeilerFinden", "TeilerFinden\TeilerFinden.csproj", "{3C9D4D47-F50C-4213-9C26-B167F352AB33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntOverflow", "IntOverflow\IntOverflow.csproj", "{4176158F-6D38-4FE4-B79C-0A4B36CBCE70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C9D4D47-F50C-4213-9C26-B167F352AB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9D4D47-F50C-4213-9C26-B167F352AB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9D4D47-F50C-4213-9C26-B167F352AB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9D4D47-F50C-4213-9C26-B167F352AB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4176158F-6D38-4FE4-B79C-0A4B36CBCE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4176158F-6D38-4FE4-B79C-0A4B36CBCE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4176158F-6D38-4FE4-B79C-0A4B36CBCE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4176158F-6D38-4FE4-B79C-0A4B36CBCE70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E117A23F-AA6C-4FEC-8BAB-9E9EDDF4AA80}
+	EndGlobalSection
+EndGlobal
